@@ -9,3 +9,8 @@ body
 border: 3px solid red;
   background-image:url("gold image.jpg");
 }
+a
+{
+  background-color:black;color:white;
+
+}
