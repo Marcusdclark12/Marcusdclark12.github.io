@@ -2,5 +2,10 @@ h1
 {
   color: red;
   text-align:center;
-  
+text-decoration: underline;
+}
+body
+{
+border: 3px solid red;
+  background-image:url("gold image.jpg");
 }

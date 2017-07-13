@@ -1,15 +1,36 @@
 <!DOCTYPE html>
 <html>
   <head>
+
+
+<link rel="stylesheet" href="aboutme.css">
     <meta charset="UTF-8">
     <title>About Me</title>
   </head>
   <body>
   <h1> About Me </h1>
   <h2> Summary</h2>
-  <p> My name Marcus Clark and I am from Stone Mountain, Georgia. I am attending Mercer University in the fall.</p>
+  <p> My is name Marcus Clark and I am from Stone Mountain, Georgia. I am attending Mercer University in the fall.</p>
 <h2> Hometown</h2>
   <p> Stone Mountain, Georgia</p>
+   <h2> University</h2>
+   <p> Mercer University</p>
+   <h2> Hobbies</h2>
+   <ol>
+     <li>Gaming</li>
+     <li> Hanging with friends</li>
+     <li> read comics</li>
+   </ol>
+  <h2> Comments </h2>
 
+<form name="ucomment">
+  <label>What is your comment?</label>
+  <input type="text" id="comment">
+  <input type="button" id="post_button" value="post">
+</form>
+  <h6 id="top_comment">Post comments here!</h6>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+  <script src="aboutme.js"></script>
   </body>
 </html>
