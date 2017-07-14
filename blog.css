@@ -3,14 +3,20 @@ h1
   color: red;
   text-align:center;
 text-decoration: underline;
+font-size: 55px;
 }
 body
 {
 border: 3px solid red;
   background-image:url("gold image.jpg");
 }
-a
+a:hover
 {
-  background-color:black;color:white;
+   background-color: yellow;
 
+
+}
+h1:hover
+{
+  color:black;
 }
