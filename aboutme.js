@@ -17,11 +17,11 @@ $('#comment').on('keypress',handleKey);
 
 
 $('img').mouseover(function(){
-    var newSrc = $(this).attr("src").replace("giphysum.gif", "sushine.jpg");
+    var newSrc = $(this).attr("src").replace("about me.jpg", "marcus.jpeg");
     $(this).attr("src", newSrc);
   });
   $('img').mouseout(function(){
-    var newSrc = $(this).attr("src").replace("sushine.jpg", "giphysum.gif");
+    var newSrc = $(this).attr("src").replace("marcus.jpeg", "about me.jpg");
     $(this).attr("src", newSrc);
   });
 
